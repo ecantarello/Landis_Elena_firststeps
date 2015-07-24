@@ -1,0 +1,72 @@
+Title
+========================================================
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring web pages (click the **MD** toolbar button for help on Markdown).
+
+When you click the **Knit HTML** button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r fig.width=7, fig.height=6}
+plot(cars)
+```
+
+#clear objects
+rm(list=ls())
+
+#set working directory
+setwd("E:/NERC_BESS/Landis_Elena_firststeps/Landis_v1")
+
+dir()
+c<- read.csv("Century-succession-log.csv")
+d<- read.csv("Century-succession-monthly-log.csv")
+e<- read.csv("Century-succession-monthly-log_comp.csv")
+
+attach(e)
+# Calculate range from 0 to max value
+e_range <- range(0, avgNEE, NEE_measured)
+
+plot(avgNEE, type="o", col="blue", ylim=e_range, 
+   axes=FALSE, ann=FALSE)
+   
+# Create box around plot
+box()
+
+# Graph NEE_measured with red dashed line and square points
+lines(NEE_measured, pch=22, lty=2, col="red")
+
+# Create a legend at (1, e_range[2]) that is slightly smaller 
+# and uses the same line colors and points used by 
+# the actual plots 
+legend(1,e_range[2], c("avgNEE", "NEE_measured"), cex=0.5, 
+   col=c("blue","red"), pch=21:22, lty=1:2);
+   
+#how do I move the legend?
+
+# Label the x and y axes with dark green text
+title(xlab="Month", col.lab=rgb(0,0.5,0))
+title(ylab="NEE (g/m2)", col.lab=rgb(0,0.5,0))
+
+# Create a title with a red, bold/italic font
+title(main="NEE modelled and measured", col.main="red", font.main=4)
+
+#does linear regression
+mod1<- lm(avgNEE~NEE_measured)
+summary(mod1)
+
+summary(Ndep)
+
+attach(c)   
+# Calculate range from 0 to max value
+y_range <- range(0, SOMTC)
+x_range <- range (0, Time)
+
+# set up the plot
+plot(y_range, x_range, type="n", xlab="Years",
+   ylab="SOMTC (g/m2)" )
+plot(Time, SOMTC)
+
