@@ -22,9 +22,12 @@ rm(list=ls())
 setwd("E:/NERC_BESS/Landis_Elena_firststeps/Landis_v1")
 
 dir()
+a<- read.csv("Century-calibrate-log.csv")
 c<- read.csv("Century-succession-log.csv")
 d<- read.csv("Century-succession-monthly-log.csv")
 e<- read.csv("Century-succession-monthly-log_comp.csv")
+
+attach(d)
 
 attach(e)
 # Calculate range from 0 to max value
@@ -70,3 +73,40 @@ plot(y_range, x_range, type="n", xlab="Years",
    ylab="SOMTC (g/m2)" )
 plot(Time, SOMTC)
 
+# Calculate range from 0 to max value
+y_range <- range(0, AGB)
+x_range <- range (0, Time)
+
+# set up the plot
+plot(y_range, x_range, type="n", xlab="Years",
+   ylab="AGB (g/m2)" )
+plot(Time, AGB)
+
+dir()
+
+# Calculate range from 0 to max value
+y_range <- range(0, CohortLeafB)
+x_range <- range (0, Month)
+
+attach(a)
+# set up the plot
+plot(y_range, x_range, type="n", xlab="Years",
+   ylab="CohortLeafB (g/m2)" )
+plot(Month, CohortLeafB)
+
+
+db<-tapply(a$CohortLeafB,list(a$Year,a$Month),mean)
+head(db)
+write.table(db, file = "named_file.csv")
+
+f<- read.csv("named_file.csv")
+
+library(plyr)
+
+ddply(a,.(Month),summarise,mean_var=mean(a))
+head(a)
+
+db<-tapply(a$CohortLeafB,list(a$Month),mean)
+summary(db)
+write.table(db, file = "named_file.csv")
+str(db)
