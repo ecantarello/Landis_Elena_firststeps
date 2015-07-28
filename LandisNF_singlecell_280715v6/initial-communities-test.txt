@@ -1,0 +1,9 @@
+LandisData   "Initial Communities"				
+
+MapCode	17										
+fagusylv	10	40	50	60	70	100	110
+querrobu	60	70	100	110
+fraxexce	10	40	50	60							
+cratmono	10	60									
+castsati	10	50	60								
+pinusylv	30	40	50	60						
