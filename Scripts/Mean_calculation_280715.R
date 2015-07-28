@@ -1,7 +1,7 @@
 library(plyr)
 library(ggplot2)
 
-e<-read.csv("LandisNF_singlecell_280715v1/Century-succession-monthly-log_comp.csv")
+e<-read.csv("LandisNF_singlecell_280715v6/Century-succession-monthly-log_comp.csv")
 str(d)
 
 View(e)
@@ -12,7 +12,7 @@ for (i in 2:nrow(e)){
 }
 
 install.packages("ggplot2")
-
+install.packages("plyr")
 
 Comp_comp1<-ggplot(e,aes(x=N_month,y=avgNEE,group=Time))+geom_point(colour="red")+geom_line(alpha=0.2,colour="red")
 Comp_comp2<-Comp_comp1+geom_point(data=e,aes(y=NEE_measured),colour="blue")+geom_line(alpha=0.2,colour="blue",aes(y=NEE_measured))
@@ -24,7 +24,7 @@ attach(e)
 mod1<- lm(avgNEE~NEE_measured)
 summary(mod1)
 
-d<-read.csv("LandisNF_singlecell_280715v1/Century-succession-log.csv")
+d<-read.csv("LandisNF_singlecell_280715v6/Century-succession-log.csv")
 ggplot(d,aes(x=Time,y=AGB))+geom_point()+geom_line()
 ggplot(d,aes(x=Time,y=SOMTC))+geom_point()+geom_line()
 ggplot(d,aes(x=Time,y=TotalSoilN))+geom_point()+geom_line()
@@ -50,11 +50,12 @@ attach(e)
 mod1<- lm(avgNEE~NEE_measured)
 summary(mod1)
 
-Landis_calibrate<-read.csv("LandisNF_singlecell_mc136_270715v3/Century-calibrate-log.csv")
-str(Landis_calibrate)
+a<-read.csv("LandisNF_singlecell_280715v6/Century-calibrate-log.csv")
+str(a)
 
-leafb<-ddply(Landis_calibrate,.(Year,Month),summarise,mean_leaf=mean(CohortLeafB))
-leafb_mean<-ddply(Landis_calibrate,.(Month,SpeciesName),summarise,mean_leaf=mean(CohortLeafB))
+leafb<-ddply(a,.(Year,Month),summarise,mean_leaf=mean(CohortLeafB))
+leafb_mean<-ddply(a,.(Month,rlai, SpeciesName),summarise,mean_leaf=mean(CohortLeafB))
+ltlai_mean<-ddply(a,.(Month,tlai, SpeciesName),summarise,mean_leaf=mean(tlai))
 
 ggplot(leafb_mean,aes(x=Month,y=mean_leaf))+geom_point()+geom_line()
 
