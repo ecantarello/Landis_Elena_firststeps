@@ -1,7 +1,7 @@
 library(plyr)
 library(ggplot2)
 
-e<-read.csv("LandisNF_singlecell_280715v6/Century-succession-monthly-log_comp.csv")
+e<-read.csv("LandisNF_290815v2/Century-succession-monthly-log_comp.csv")
 str(d)
 
 View(e)
@@ -24,7 +24,7 @@ attach(e)
 mod1<- lm(avgNEE~NEE_measured)
 summary(mod1)
 
-d<-read.csv("LandisNF_singlecell_280715v6/Century-succession-log.csv")
+d<-read.csv("LandisNF_290815v2/Century-succession-log.csv")
 ggplot(d,aes(x=Time,y=AGB))+geom_point()+geom_line()
 ggplot(d,aes(x=Time,y=SOMTC))+geom_point()+geom_line()
 ggplot(d,aes(x=Time,y=TotalSoilN))+geom_point()+geom_line()
@@ -59,7 +59,7 @@ ltlai_mean<-ddply(a,.(Month,tlai, SpeciesName),summarise,mean_leaf=mean(tlai))
 
 ggplot(leafb_mean,aes(x=Month,y=mean_leaf))+geom_point()+geom_line()
 
-c<-read.csv("LandisNF_singlecell_mc136_270715v3/Century-succession-log.csv")
+c<-read.csv("LandisNF_290815v2/Century-succession-log.csv")
 ggplot(c,aes(x=Time,y=AGB))+geom_point()+geom_line()
 ggplot(c,aes(x=Time,y=SOMTC))+geom_point()+geom_line()
 ggplot(c,aes(x=Time,y=TotalSoilN))+geom_point()+geom_line()
@@ -74,3 +74,31 @@ x_range <- range (0, Time)
 plot(y_range, x_range, type="n", xlab="Years",
      ylab="SOMTC (g/m2)" )
 plot(Time, SOMTC)
+
+# Calculate range from 0 to max value
+y_range <- range(0, AGB)
+x_range <- range (0, Time)
+
+# set up the plot
+plot(y_range, x_range, type="n", xlab="Years",
+     ylab="AGB (g/m2)" )
+plot(Time, AGB)
+
+# Calculate range from 0 to max value
+y_range <- range(0, TotalSoilN)
+x_range <- range (0, Time)
+
+# set up the plot
+plot(y_range, x_range, type="n", xlab="Years",
+     ylab="TotalSoilN (g/m2)" )
+plot(Time, TotalSoilN)
+
+# Calculate range from 0 to max value
+y_range <- range(0, C_DeadWood)
+x_range <- range (0, Time)
+
+# set up the plot
+plot(y_range, x_range, type="n", xlab="Years",
+     ylab="C_DeadWood (g/m2)" )
+plot(Time, C_DeadWood)
+
