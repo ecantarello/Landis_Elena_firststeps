@@ -1,0 +1,7 @@
+LandisData   "Initial Communities"				
+
+MapCode	17										
+fagusylv	1
+querrobu	1
+cratmono 	1
+						

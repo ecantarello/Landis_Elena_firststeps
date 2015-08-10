@@ -1,0 +1,786 @@
+LandisData   "Initial Communities"	
+
+MapCode	0												
+
+MapCode	1											
+betupend	10	20	30	40	50	60	70	80	100			
+fagusylv	10	40	70	90	210							
+ilexaqui	10	40	50	60	70							
+pinusylv	100											
+querrobu	10	30	40	50	60	70	80	90	100	110	130	220
+franalnu	10	50										
+sorbaucu	40											
+salicine	10	
+										
+MapCode	2											
+fagusylv	40	50	60	70	80	100	110	130	160	170	220	240
+malusylv	70											
+ilexaqui	10	50	60	70	80	90	100	110				
+querrobu	30	40	60	90	100	130	140	160	180																																																																																																																																																																																																																																																					
+taxubacc	10																																																																																																																																																																																																																																																													
+
+MapCode	3																																																																																																																																																																																																																																																													
+fagusylv	50	60	70	80	90	100	110	120	130	140	150	160	190	230	260																																																																																																																																																																																																																																															
+ilexaqui	10	40	50	60	70	80	90																																																																																																																																																																																																																																																							
+querrobu	70	80	90	100	110	120	140	150	160	190	260																																																																																																																																																																																																																																																			
+taxubacc	60	90	110	180																																																																																																																																																																																																																																																										
+
+MapCode	4																																																																																																																																																																																																																																																													
+franalnu	50																																																																																																																																																																																																																																																													
+ilexaqui	10	40	50	60	70	80	90	100	110	120	130	140	150	160																																																																																																																																																																																																																																																
+querrobu	100	110	120	140	160	190	210																																																																																																																																																																																																																																																							
+pinusylv	110	120																																																																																																																																																																																																																																																												
+sorbaria	10	50	80	90																																																																																																																																																																																																																																																										
+taxubacc	70	80	90	120	130	140	170																																																																																																																																																																																																																																																							
+
+MapCode	5																																																																																																																																																																																																																																																													
+querrobu	10	50	60	70	80	90	100	110	120	130	150	160	190	220	250																																																																																																																																																																																																																																															
+fagusylv	50	60																
+ilexaqui	40	50	60	70	80	90	120	140	150									
+betupend	40	50	60	80	90	100												
+sorbaucu	40																	
+pinusylv	60	70	80	100	110													
+taxubacc	50	60	120	190	200	230	260	320										
+sorbaria	30																	
+
+MapCode	6																	
+ilexaqui	10	40	50	60	70	80	90	100	110	120	130	140	150	170				
+querrobu	80	90	100	110	120	130	140	300										
+querrubr	30	50	60	70	80	90	100	110	120	130								
+taxubacc	70	100	110	130														
+
+MapCode	7																	
+querrobu	30	80	100	110	120	150	170	210	220	240								
+fagusylv	10	40	50	60	70	80	90	100	110	130	150	160	170	180	210	260	300	330
+ilexaqui	10	50	60	70	80	90	100											
+betupend	70									
+salicine	50									
+cratmono	10									
+						
+
+MapCode	9									
+querrobu	130	140	150	160	170	180	190	210	220	
+fagusylv	100									
+castsati	50	60	70	80	90	100				
+ilexaqui	10	40	50	60	70	80				
+taxubacc	70	100										
+																				
+
+MapCode	13														
+fagusylv	50	60	70	80	90	100	110	120	130	140	150	160	170	200	240
+ilexaqui	10	40	50	60	70	90									
+querrobu	270														
+
+MapCode	14														
+querrobu	10	40	60	110	150	160	170	190	200	210	240	260	300	370	
+fagusylv	10	40	50	60	70	80	90	100	120	130	140				
+ilexaqui	10	40	50	60	70	80									
+
+MapCode	15														
+fagusylv	160														
+cratmono	10	90													
+ilexaqui	10	50	60	70	80	90	100	110	120	130	140	150	160	170	180	210
+querrobu	70	90	110	140	150											
+taxubacc	60	80														
+
+MapCode	16															
+fagusylv	10	40	100	120	150	180	210	240	260							
+querrobu	80	130	140	190	240											
+malusylv	70															
+ilexaqui	10	40	50	60	70	80	90	100	250							
+betupend	50															
+
+MapCode	17															
+fagusylv	50	110	140	150	160	170	180	200	210	230	250					
+querrobu	90	120	150	170	180	230	240									
+ilexaqui	10	40	50	60	70	80	100	110								
+
+MapCode	18															
+fagusylv	10	60	70	90	110	120	140	200	210	220	230	260	280			
+querrobu	70	100	120	140	250											
+ilexaqui	10	40	50	60	70	80	90	100									
+betupend	30	40	60														
+taxubacc	80																
+
+MapCode	19																
+ilexaqui	10	40	50	60	70	80	90	100	110								
+querrobu	30	70	100	130	140	150	160	200	260								
+betupend	30	70	110														
+fraxexce	50	60															
+coryavel	50	60	70														
+
+MapCode	20																
+ilexaqui	80	110															
+querrobu	60	70	80	90	100	110	120	130	140	150	160	170	190	200	210	220	240
+cratmono	10	70															
+
+MapCode	21																
+ilexaqui	10	40	50	60	70	80	90	100	110	120	140	150					
+querrobu	10	40	50	60	70	80	90	100	110	120	130	140	150	170	180	190	200
+betupend	60	70												
+cratmono	10	60												
+taxubacc	140													
+
+MapCode	22													
+fagusylv	10	40	50	60	70	80	90	120						
+querrobu	100	120	130	140	160	170	180	190	200	210	220	230	280	
+ilexaqui	10	40	50	60	70	80								
+taxubacc	50	80	160											
+
+MapCode	23													
+fagusylv	40	50	70	80	90	110	120	130	140	160	170	190	200	260
+querrobu	10	30	40	50	60	80	90							
+pinusylv	60	70	80	90										
+pinunigr	10	20	30	40	70	80								
+betupend	10	30	40	50	60									
+sorbaucu	40													
+ilexaqui	10	50												
+						
+MapCode	26							
+fagusylv	50	60	90	130	150	170	190	200
+querrobu	50	60	70	100	130	140	200	250
+ilexaqui	10	40	50	60	70	80	90	100
+alnuglut	10	30						
+cratmono	10	60						
+franalnu	70										
+larideci	10	20	30	40	50															
+
+MapCode	28										
+fagusylv	180	190	210	290							
+querrobu	110	120	130	150	160	170	180	190			
+pseumenz	40	50	70								
+tsughete	50																																								
+
+MapCode	32																
+fagusylv	10	40	50	60	70	80	90	100	110	120	130	140	150	160	170	200	310
+querrobu	40	170	180	190	210	220	230	330									
+ilexaqui	10	40	50	60	70	80	90	100									
+
+MapCode	33																
+fagusylv	50	60	70	80	90	110	130	150	160	170	180	190	200				
+querrobu	130	150	160	180	290	350											
+ilexaqui	10	40	50	60	70	80	90	100
+
+MapCode	34							
+fagusylv	220	240	340					
+querrobu	170	190	250					
+
+MapCode	35							
+betupend	110							
+querrobu	120	130	140	150	180	200	210	
+ilexaqui	60	70	80	90	110			
+
+MapCode	36							
+fagusylv	40	50	60	110				
+querrobu	30	40	50	60				
+ilexaqui	10	50	60	100				
+betupend	10	20	30	40	50	60		
+acerpseu	10	40	50					
+malusylv	10	70						
+pinusylv	50	60	70					
+popualba	10	40	50	60						
+salicine	10	30	40	50	60					
+
+MapCode	37									
+fagusylv	100	120	180	200	220	230	240	280	300	310
+querrobu	160	250								
+ilexaqui	10	40	50	60	70	80	90	100		
+
+MapCode	38									
+ilexaqui	10	50	60	70	80	90	140			
+querrobu	30	40	50	60	80	90	100	110	140	170
+salicine	40	50								
+coryavel	10	50								
+cratmono	10	50	80							
+betupend	10	20	30	40	50	60	70	80		
+pinusylv	30	90								
+franalnu	80									
+fagusylv	10									
+
+MapCode	39																
+fagusylv	80	120	130	140	160	170	180	210	220	310							
+querrobu	10	60	70	80	90	100	110	120	130	140	150	160	180				
+ilexaqui	10	50	60	70	80	90	100	110	120								
+cratmono	10																
+betupend	10																									
+
+MapCode	41																
+fagusylv	10	40	50	60	70	80	90	100	110	120	130	140	150	160	180	190	210
+querrobu	110	130	150	160	180												
+ilexaqui	10	40	50	60	70	80											
+betupend	30	50															
+
+MapCode	42																
+pinusylv	50	100	120	130													
+querrobu	10	40	50	80													
+ilexaqui	10	110											
+betupend	10	20	30	40	50	60	70	90					
+salicine	10	40	60	70									
+sorbaucu	50												
+malusylv	70												
+franalnu	70																								
+
+MapCode	45												
+fagusylv	40	50	60	70	80	130	150						
+querrobu	40	50	70	80	90	100	110	120	140	150	160	170	200
+ilexaqui	10	50							
+cratmono	10	60	70	80					
+acercamp	10	70	80	90	100	110	120	130	150
+fraxexce	40	50	60						
+salicine	30	40	50	60	70	80			
+prunspin	10								
+
+MapCode	46								
+fagusylv	80								
+malusylv	70								
+carpbetu	10	30	40	50	60				
+fraxexce	10	40	50	60	70				
+betupend	30	80	90						
+tsughete	50								
+pseumenz	40	50	60	70	80				
+cratmono	10																		
+
+MapCode	48											
+fagusylv	70	80										
+querrobu	40	60	80	100	120	140	160	170	210	230	260	320
+fraxexce	50											
+cratmono	10	60	70	80	90	120						
+coryavel		60	70	80					
+ilexaqui	10	40	50	60	70	80	90	100	110
+betupend	80																						
+
+MapCode	51								
+cratmono	60												
+querrobu	60	80	90	100	110	120	140	150	160	180	190	200	220
+ilexaqui	10	50	60	70	80	90	100	110	120	140	150	160	280
+betupend	110												
+
+MapCode	52												
+fagusylv	10	40	50	60	290	500							
+querrobu	40	230	260										
+ilexaqui	10	50	100										
+betupend	10	30	40	50									
+
+MapCode	53												
+fagusylv	10	90	120	130	140	150							
+querrobu	50	60	70	80	90	100	110	120	130	140	160		
+betupend	10	50											
+ilexaqui	10												
+cratmono	10												
+piceabie	10												
+prunspin	10																					
+
+MapCode	55											
+ilexaqui	10	40	50	60	70	80	100					
+querrobu	10	50	60	70	80	90	100	110	120	160	170	330
+betupend	10	30	40	50	70	80	100	110				
+cratmono	10	60										
+fraxexce	10	40	50									
+salicine	50											
+prunspin	10	60										
+
+MapCode	56											
+fagusylv	120	150	190	250	270							
+querrobu	230	260	310	340	440							
+ilexaqui	10	40	50	60	70	80	90	100	110	120	130	150
+
+MapCode	57											
+fagusylv	40	60	70	80	100	110	140	170	220			
+querrobu	60	70	80	90	100	110	120	130	150	160	170	240
+fraxexce	10	50	60	70								
+malusylv	70	110										
+ilexaqui	10	40	50	60	70	80	100	120				
+cratmono	10	60	80									
+franalnu	10																				
+
+MapCode	59									
+fagusylv	90	130	160	170	180					
+querrobu	50	110	120	150	160	240	270	370		
+betupend	10	60	70	80	90	100	120			
+
+MapCode	60									
+fagusylv	10	70	80	110	270					
+querrobu	30	50	60	80	90	100	120	140	270	
+ilexaqui	10	40	50	60	70	80	90	110	120	130
+betupend	80	110								
+franalnu	10	60								
+malusylv	10									
+salicine	10									
+
+MapCode	61									
+salicine	10	30	40	50	80	90				
+querrobu	30	50	70	120	130	220				
+ilexaqui	10	60	70	130						
+betupend	10	30	40	50	60	70	80	90	
+cratmono	10								
+franalnu	10								
+
+MapCode	62								
+fagusylv	100	140	170	180	230	250	280		
+querrobu	30	40	50	70	80	90	100	120	140
+sorbaucu	50								
+pinusylv	100								
+ilexaqui	10	40	50	60	70	80	90		
+betupend	40	50	60	70	90				
+
+MapCode	63								
+fagusylv	80	210	220	240	360	400			
+querrobu	10	170							
+ilexaqui	10	40	50	60	70	80	90	110	130
+betupend	10	30	70	80	100	110	120							
+
+MapCode	65						
+fagusylv	150	200	210	250	290	300	330
+querrobu	150	190	250				
+pseumenz	20	140					
+larideci	170						
+piceabie	10	40					
+ilexaqui	10															
+
+MapCode	67												
+fagusylv	40	50	70	80	90	100	130						
+querrobu	30	40	50	60	70	80	90	120					
+betupend	10	20	30	50									
+castsati	50	70	80	90									
+larideci	10												
+
+MapCode	68												
+fagusylv	60	70	80	100	120	130	140	150	160	170	200	210	220
+querrobu	80	100	110	120	130	140	150	160	170	180	250													
+
+MapCode	70														
+fagusylv	10	40	50	60	70	80	140	160	170	300					
+querrobu	80	180													
+ilexaqui	70														
+betupend	60	80	90	100	130										
+picesitc	10	20													
+tsughete	10														
+
+MapCode	73														
+fagusylv	10	40	50	60	70	80	90	110	130	180	190	200	210	230	370
+querrobu	100	160	180				
+betupend	40	110					
+pseumenz	10						
+
+MapCode	75																
+fagusylv	80	180															
+querrobu	10	30	50	60	70	80	90	150									
+alnuglut	10	30	40	50	60	70	80	90	100	110	120	140	150	180			
+cratmono	10	60															
+ilexaqui	10	50	60	70	80	90	100	110	130								
+betupend	30	40	50	60	70	80	90	100									
+malusylv	10																
+
+MapCode	76																
+fagusylv	10	50	60	80	90	200											
+querrobu	10	30	40	50	60	70	80	90	100	110	120	130	140	150	160	180	210
+ilexaqui	10	50	60	90													
+fraxexce	40											
+cratmono	10	70	90									
+salicine	10	30	40	50	60							
+alnuglut	10											
+franalnu	10											
+malusylv	10											
+sorbaucu	10											
+prunspin	10											
+
+MapCode	77											
+fagusylv	100	170	180	210	240	290	310	380				
+querrobu	30	50	60	70	160	230						
+ilexaqui	10	40	50	60	70	80	90	100	110	130	140	150
+cratmono	10	70										
+taxubacc	60											
+
+MapCode	78											
+salicine	10	30	40	50	60	70	80					
+alnuglut	10	20	30	40	50	60	70	80	90	100	110	120	140	150	160	240
+betupend	30	60	70	80	110											
+cratmono	10															
+
+MapCode	79															
+fagusylv	50	80	110	120	130	150	160	200	310							
+querrobu	30	70														
+ilexaqui	10	50														
+salicine	30															
+pinusylv	100	130	140	150												
+betupend	10	40	50	70	80	90	160									
+
+MapCode	80															
+fagusylv	60															
+querrobu	110	120	130	140	150	160	170	180	190	200	230					
+ilexaqui	10	40	50	60	70	80	90	130								
+
+MapCode	81															
+fagusylv	40	60	70	80	90	110	130	140	160	170	190	210	230			
+querrobu	150	160	170	220	230										
+ilexaqui	10	40	50	60	70										
+betupend	50														
+cratmono	80														
+sorbtorm	30														
+
+MapCode	82														
+fagusylv	140	150	160	170	180	190	200	220	260	310					
+querrobu	50	110	120	130	150	160	170								
+ilexaqui	10	40	50	70	80										
+cratmono	60														
+
+MapCode	83														
+fagusylv	10	40	50	60	70	90	100	110	120	130	140	150	160	180	250
+ilexaqui	10	40	50	60											
+sorbtorm	10	30													
+querrobu	30	110	150	160	170	230	260								
+malusylv	10														
+
+MapCode	84													
+fagusylv	10	50	60	90	100	110	120	130	170	190	310			
+querrobu	10	30	40	60	70	90	120	150	160	170	210	220		
+ilexaqui	10	40	50	60	70	80	90	100	110					
+betupend	20	30	40	50	60	70	90	100						
+cratmono	10	60	70											
+salicine	40													
+malusylv	60	130												
+coryavel	10													
+
+MapCode	85													
+fagusylv	10	40	50	60	70	80	130	150	160	180	190	220	230	250
+querrobu	40	50	60											
+ilexaqui	10	40	50	60	70									
+betupend	30													
+
+MapCode	86													
+fagusylv	10	40	50	60	70	80	120							
+querrobu	40	50	60	80	110	120	130	160	170	200	230	260	290	400
+ilexaqui	10	50	60	70	80									
+betupend	10	30	40	50	60	70	80	90	100	110				
+
+MapCode	87													
+fagusylv	10	50	70	80	100	120	140	150	160	170	190	210		
+querrobu	10	40	50	60	70	80	90	100	110	120	130	140	230	240
+ilexaqui	10	40	50	60	70	80	90	100	110	120	190			
+betupend	10	20	30	40	50	60	70	80						
+salicine	30													
+franalnu	10													
+
+MapCode	88													
+fagusylv	160													
+querrobu	80	100	120	130	140	150	170	190	200	250	260	280		
+ilexaqui	70	80	90	100	110	120	130	160						
+querrubr	70	80	110	120	130									
+betupend	10	40	50	70	80	90								
+castsati	130														
+
+MapCode	89														
+fagusylv	10	40	50	70	80										
+querrobu	40	50	60	70	80	90	100	110	120	130	140	150	170	180	240
+ilexaqui	10	60													
+cratmono	10	60	70												
+prunspin	10														
+
+MapCode	90														
+fagusylv	50	60	70	100	110	130	170	180	190	210	220	230	240	260	
+querrobu	110	120	130	140	150	160	170	210							
+ilexaqui	10	40	50	60	70	80	90	120	150						
+betupend	40														
+taxubacc	60	80	90												
+
+MapCode	91														
+fagusylv	10	50	60	70	80	90	100	120	140						
+querrobu	50	60	70	80	90	100	110	120	140						
+pinusylv	60	70	80	90	100				
+sorbaria	30								
+cratmono	10								
+pseumenz	10								
+
+MapCode	92								
+fagusylv	10	70	80	90	120	130	200		
+querrobu	90	100	110	120	130	140	150	160	180
+ilexaqui	10	40	60						
+pseumenz	10								
+
+MapCode	96				
+fagusylv	10	40	50	60	70
+querrobu	170	180	190	210	220
+salicine	40											
+cratmono	10	90										
+coryavel	10	50	60									
+betupend	10	20	30	40	50							
+castsati	50	60	70									
+
+MapCode	97											
+fagusylv	50	60	70	80	90	110	120	130	140	160	170	180
+querrobu	40	120	130	140	180							
+pinusylv	50	60										
+betupend	50	60	80	90								
+castsati	60	70	80									
+taxubacc	70											
+
+MapCode	99												
+fagusylv	10	40	50	60	70	80	90	100	110	120	130	140	160
+querrobu	50	70	90	100	110	120	130	140	150	160			
+ilexaqui	10	40	50	60	70	80	100	110	120				
+piceabie	10	40	50	60									
+pinusylv	30												
+betupend	10	20	30	40	50	60							
+
+MapCode	100												
+fagusylv	10	40	50	60	70	80	90	110	120	130	140	170	180
+querrobu	30	40	50	60	70	80	90	100	120	130	150	180	
+taxubacc	60												
+ilexaqui	10	40	50	60	70	80	90	100					
+pinusylv	30	50											
+betupend	10	40	50												
+
+MapCode	101														
+alnuglut	20	30	40	50	60										
+querrobu	100	130	230												
+ilexaqui	10	40	50	60	80	90	120								
+betupend	10	40	70												
+sorbaucu	10	50													
+franalnu	10														
+
+MapCode	103														
+fagusylv	50	70	90	100	130	160									
+querrobu	10	30	40	50	70	80	90	130	140	150	160	170	200	210	240
+ilexaqui	10	40	50	60	70										
+betupend	30	40	50	60	70	80									
+salicine	30	60													
+taxubacc	70	90	140												
+franalnu	10														
+
+MapCode	104														
+fagusylv	40	50	60	80											
+querrobu	30	50	60	70	100	110	150	170	180	190	200	210	220	260	300
+ilexaqui	40	50	60	150											
+betupend	30	50	60	80											
+taxubacc	50	60	90	100	150	160	260	270	290						
+sorbtorm	10	20	40	60											
+fraxexce	50														
+sorbaucu	40	50	60	70	80	90									
+
+MapCode	106													
+fagusylv	10	40	50	60	70	90	100	110	120	130	140	170	180	200
+querrobu	120	130	140	150	160	170	180	190	200	230	250	290		
+ilexaqui	10	40	50	60										
+betupend	20	30	40	50										
+malusylv	70													
+alnuglut	20													
+taxubacc	100													
+cratmono	10													
+
+MapCode	115															
+taxubacc	70	90														
+alnuglut	40															
+fagusylv	40	60	80	90	100	110										
+querrobu	10	30	40	50	60	70	80	90	100	110	120	130	140	150	160	170
+pinusylv	10	30	40	50	70	90	110						
+ilexaqui	10	40	50	60	70	80	90						
+betupend	10	30	40	50	6	70	80						
+
+MapCode	116												
+alnuglut	10												
+malusylv	70												
+querrobu	30	60	80	120	140	170	180						
+cratmono	10	60											
+salicine	30	40											
+ilexaqui	10	40	50	60	80								
+betupend	30	40	50	60	70	100							
+fraxexce	10												
+
+MapCode	118													
+pinusylv	80													
+cratmono	60													
+fagusylv	10	40	50	60	70	80	90	100	120	140	150	170	230	240
+querrobu	80	100	170	180	200	220	230	260						
+
+MapCode	119													
+ilexaqui	40													
+fagusylv	10	40	80	90	100	110	120	130	140	160	170			
+querrobu	100	110	120	130	140	150	160	170	200	210														
+
+MapCode	125														
+querrobu	30	40	60	90	100	130	150	170	180	200	220	260	280	310	410
+ilexaqui	10	60	70	80	90	100	110								
+betupend	10	30	40	50	60	70	80	90	100						
+cratmono	10	60													
+sorbtorm	40														
+franalnu	10														
+prunspin	10														
+coryavel	10														
+salicine	10																	
+
+MapCode	126																	
+fagusylv	40	130	170															
+querrobu	30	40	50	70	80	90	100	110	120	150	160	180	200	240	250	280	290	350
+ilexaqui	10	40	50	60	70	80	90											
+betupend	10	30	40	60	70	90	100	120	130									
+salicine	40																	
+
+MapCode	127																	
+fagusylv	40	50	60	80	100	120	170	210	220									
+querrobu	40	50	60	80	90	100	110	120	130	150	160	180	190	200	220	240		
+ilexaqui	10	40	50	60														
+
+MapCode	128																	
+fagusylv	180	210																
+querrobu	220	230	250	260														
+betupend	30	40																
+ilexaqui	10	40	50	60	70	80	90	130	140									
+cratmono	10	60	70	120	150						
+salicine	30										
+
+MapCode	129										
+fagusylv	70	90	100	110	120	130	140	150	160	170	200
+querrobu	60	70	80	90	100	110	130	140	160	170	180
+ilexaqui	10	50	60								
+pinusylv	100	130	160								
+betupend	10	40	90								
+cratmono	10										
+
+MapCode	130										
+fagusylv	180	200									
+querrobu	220	230	320	350	380						
+ilexaqui	10	40	60	70							
+betupend	40	50	60	70	80	100	110	120			
+cratmono	10	60	70	80	90	100					
+malusylv	10	50	70	80	100						
+prunspin	10	50												
+popualba	10													
+
+MapCode	131													
+fagusylv	10	40	50	60	70	80	90	100	110	120	140	190		
+querrobu	50	70	80	90	100	110	130	140	150	160	170			
+malusylv	10	80												
+salicine	30	40												
+cratmono	10	60	70	80										
+ilexaqui	40	50	80											
+betupend	30	40												
+taxubacc	80													
+
+MapCode	132													
+fagusylv	50	60	70	80	130	140	150	170	180	200	210	220	230	250
+querrobu	150	160	170	180	210	250								
+ilexaqui	10	40												
+acerpseu	40													
+
+MapCode	134										
+fagusylv	10	40	50	60	70	80	150				
+querrobu	120	130	140	150	160	170	180	190			
+
+MapCode	136										
+fagusylv	10	40	50	60	70	100	110	120	130	150	210
+querrobu	60	70	100	120	130	150	160	170	190	220	250
+fraxexce	10	40	50	70							
+cratmono	10	60									
+castsati	10	50	60								
+pinusylv	30	40	50	60							
+
+MapCode	137										
+fagusylv	40	70	110	310							
+querrobu	40	50	60	70	80	90	100	120			
+pinunigr	40	50	60	70							
+pinusylv	50										
+betupend	10	20	30	40							
+cratmono	10										
+
+MapCode	140										
+fagusylv	10	40	50	60	70	80	130	160			
+querrobu	100	110	120	130	140	150	160	170	180	190	200
+ilexaqui	10	40	50	60	70	80	90	110			
+betupend	10	30	40	50							
+castsati	50										
+coryavel	10							
+
+MapCode	141							
+fagusylv	120	240						
+querrobu	140	160	170	180	190	210	230	240
+cratmono	10	60	70	90	100			
+malusylv	60							
+betupend	10							
+
+MapCode	146												
+fagusylv	10	50	60	150	190								
+querrobu	100	110	120	130	140	150	160	170	180	190	210	220	230
+pseumenz	70	110											
+ilexaqui	60	70	110											
+castsati	10	50	60	70										
+
+MapCode	147													
+fagusylv	130	160	170											
+querrobu	40	50	80	100	110	120	130	140	150	160	170	180	210	380
+fraxexce	70													
+acercamp	10	80	110	120	130	140								
+cratmono	10	60	70	80										
+ilexaqui	10	40	50	70										
+
+MapCode	148													
+fagusylv	60	110	120	150	190	200	220	280						
+querrobu	120	270												
+ilexaqui	10	40	50	60	70	80	90	100	110	120	140	150	170	190
+sorbaucu	10	40	80											
+betupend	10	20	30	40	50	60	70	80	90					
+pinusylv	30													
+franalnu	10									
+
+MapCode	155								
+fagusylv	10	40	50	60	70	100	120	130	210
+querrobu	80	90	100	110	120	130	140	160	
+ilexaqui	10	50	60	70	80				
+betupend	10	30	40						
+pinusylv	60	80	90	100	120				
+pinunigr	40	50	60	80					
+castsati	80								
+cratmono	10								
+
+MapCode	157														
+fraxexce	10	40	50	60	70										
+querrobu	30	40	60	80	110	170	180	220							
+alnuglut	10	20	40	50	60	70	80	90	100	110	120	130	150	160	180
+salicine	10	40	60												
+cratmono	10	60	70												
+ilexaqui	10	40	50	60	70										
+franalnu	10														
+prunspin	10														
+vibuopul	10														
+
+MapCode	159														
+pseumenz	10	60	70	80	90	100	120								
+pinusylv	60	70													
+
+MapCode	161															
+querrobu	10	30	40	60	70	80	100	110	120	130	140	150	170	190	210	230
+fagusylv	10	40	50	60	70	90	120	160								
+ilexaqui	10	40	50	60	70	80	90	100	110	120						
+taxubacc	60															
+fraxexce	40															
+betupend	20	30	40	50	60	70	80	90	110							
+malusylv	110															
+sorbaria	50						
+coryavel	10						
+
+MapCode	164							
+fagusylv	50	90	120					
+querrobu	10	50	70	80	90	100		
+pinusylv	50	60	70	80	90	100	130	
+betupend	50	90						
+castsati	60	70						
+pseumenz	10	40	60	70	80			
+ilexaqui	60							
+cratmono	10							
+tsughete	10							
+									
+MapCode	169							
+fagusylv	10	40	50	60	70	80	90	100
+querrobu	50	60						
+pseumenz	30	40	50	60				
+betupend	30	50	60	90				
+castsati	70							
+cratmono	10							
+
+MapCode	171										
+fagusylv	40	50	60	70	80	90	120	130	140	150	200
+querrobu	10	50	90	100	110	120	140	170	190	210	
+ilexaqui	10	40	50	60	70	80	90	100			
+betupend	10	30									
+taxubacc	130	210	230								
+pinunigr	40										
+castsati	10	50	60								
