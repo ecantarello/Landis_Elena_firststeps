@@ -1,7 +1,7 @@
 library(plyr)
 library(ggplot2)
 
-e<-read.csv("LandisNF_300715v8/Century-succession-monthly-log_comp.csv")
+e<-read.csv("LandisNF_070815v1/Century-succession-monthly-log_comp.csv")
 str(d)
 
 View(e)
@@ -53,7 +53,7 @@ attach(e)
 mod1<- lm(avgNEE~NEE_measured)
 summary(mod1)
 
-d<-read.csv("LandisNF_290815v2/Century-succession-log.csv")
+d<-read.csv("LandisNF_050815v2/Century-succession-log.csv")
 ggplot(d,aes(x=Time,y=AGB))+geom_point()+geom_line()
 ggplot(d,aes(x=Time,y=SOMTC))+geom_point()+geom_line()
 ggplot(d,aes(x=Time,y=TotalSoilN))+geom_point()+geom_line()
@@ -79,20 +79,33 @@ attach(e)
 mod1<- lm(avgNEE~NEE_measured)
 summary(mod1)
 
-a<-read.csv("LandisNF_singlecell_280715v6/Century-calibrate-log.csv")
+a<-read.csv("LandisNF_070815v2/Century-calibrate-log.csv")
 str(a)
 
-leafb<-ddply(a,.(Year,Month),summarise,mean_leaf=mean(CohortLeafB))
+leafb<-ddply(a,.(Month),summarise,mean_leaf=mean(CohortLeafB))
 leafb_mean<-ddply(a,.(Month,rlai, SpeciesName),summarise,mean_leaf=mean(CohortLeafB))
 ltlai_mean<-ddply(a,.(Month,tlai, SpeciesName),summarise,mean_leaf=mean(tlai))
 
-ggplot(leafb_mean,aes(x=Month,y=mean_leaf))+geom_point()+geom_line()
+ggplot(leafb,aes(x=Month,y=mean_leaf))+geom_point()+geom_line()+
+  theme(axis.title.y = element_text(size = rel(3), angle = 90,vjust=0.5),axis.title.x = element_text(size = rel(3)))+ ## rel = size relative to other text; v-just adjusts the position of the axis labels in this case
+  theme(axis.text.x=element_text(angle=0, size=30, vjust=0.5)) + # This specifies the size of your x-axis values
+  theme(axis.text.y=element_text(angle=0, size=30, vjust=0.5)) # This specifies the size of your y-axis values
 
-c<-read.csv("LandisNF_300715v9/Century-succession-log.csv")
+#start here to analyse AGB, SOMTC, ect.
+c<-read.csv("LandisNF_070815v2/Century-succession-log.csv")
 ggplot(c,aes(x=Time,y=AGB))+geom_point()+geom_line()
 ggplot(c,aes(x=Time,y=SOMTC))+geom_point()+geom_line()
 ggplot(c,aes(x=Time,y=TotalSoilN))+geom_point()+geom_line()
 
+AGB_mean<-ddply(c,.(Time),summarise,mean_AGB=mean(AGB))
+
+#start Paul's code
+ggplot(c,aes(x=Time,y=AGB))+geom_point()+geom_line()+
+  theme(axis.title.y = element_text(size = rel(3), angle = 90,vjust=0.5),axis.title.x = element_text(size = rel(3)))+ ## rel = size relative to other text; v-just adjusts the position of the axis labels in this case
+  theme(axis.text.x=element_text(angle=0, size=30, vjust=0.5)) + # This specifies the size of your x-axis values
+  theme(axis.text.y=element_text(angle=0, size=30, vjust=0.5)) # This specifies the size of your y-axis values
+ggsave("F:name.jpg",width = 8,height = 6,units = "in",dpi = 400) # outputs the graph at specified dimensions
+#finish Paul's code
 
 attach(c)   
 # Calculate range from 0 to max value
@@ -131,18 +144,70 @@ plot(y_range, x_range, type="n", xlab="Years",
      ylab="C_DeadWood (g/m2)" )
 plot(Time, C_DeadWood)
 
+#establishment probability
+b<-read.csv("LandisNF_050815v2/Century-prob-establish-log.csv")
+
+ProbEst_mean<-ddply(b,.(Species,Ecoregion),summarise,mean_ProbEst=mean(ProbEst))
+write.csv(ProbEst_mean, file="ProbEst_mean.csv")
+
+ProbEst_mean<-ddply(b,.(Species),summarise,mean_ProbEst=mean(ProbEst))
+
 #Full land scenario
-a<-read.csv("LandisNF_300715v5/Century-succession-log.csv")
+a<-read.csv("LandisNF_060815v4/Century-succession-log.csv")
 str(a)
-b<--read.csv("LandisNF_290815v1/Century-succession-monthly-log.csv")
+b<--read.csv("LandisNF_300715v10/Century-succession-monthly-log.csv")
 
 AGB_mean<-ddply(a,.(Time),summarise,mean_AGB=mean(AGB))
 SOMTC_mean<-ddply(a,.(Time),summarise,mean_SOMTC=mean(SOMTC))
 TotalSoilN_mean<-ddply(a,.(Time),summarise,mean_TotalSoilN=mean(TotalSoilN))
 TotalNdep_mean<-ddply(a,.(Time),summarise,mean_TotalNdep=mean(TotalNdep))
-avgNEE_mean<-ddply(b,.(Month),summarise,mean_avgNEE=mean(avgNEE))
+TotalCDeadwood_mean<-ddply(a,.(Time),summarise,mean_C_DeadWood=mean(C_DeadWood))
 
 
-ggplot(AGB_mean,aes(x=Time,y=mean_AGB))+geom_point()+geom_line()
-ggplot(SOMTC_mean,aes(x=Time,y=mean_SOMTC))+geom_point()+geom_line()
-ggplot(TotalSoilN_mean,aes(x=Time,y=mean_TotalSoilN))+geom_point()+geom_line()
+
+
+ggplot(AGB_mean,aes(x=Time,y=mean_AGB))+geom_point()+geom_line()+
+  theme(axis.title.y = element_text(size = rel(3), angle = 90,vjust=0.5),axis.title.x = element_text(size = rel(3)))+ ## rel = size relative to other text; v-just adjusts the position of the axis labels in this case
+  theme(axis.text.x=element_text(angle=0, size=30, vjust=0.5)) + # This specifies the size of your x-axis values
+  theme(axis.text.y=element_text(angle=0, size=30, vjust=0.5)) # This specifies the size of your y-axis values
+ggplot(SOMTC_mean,aes(x=Time,y=mean_SOMTC))+geom_point()+geom_line()+
+  theme(axis.title.y = element_text(size = rel(3), angle = 90,vjust=0.5),axis.title.x = element_text(size = rel(3)))+ ## rel = size relative to other text; v-just adjusts the position of the axis labels in this case
+  theme(axis.text.x=element_text(angle=0, size=30, vjust=0.5)) + # This specifies the size of your x-axis values
+  theme(axis.text.y=element_text(angle=0, size=30, vjust=0.5)) # This specifies the size of your y-axis values
+ggplot(TotalSoilN_mean,aes(x=Time,y=mean_TotalSoilN))+geom_point()+geom_line()+
+  theme(axis.title.y = element_text(size = rel(3), angle = 90,vjust=0.5),axis.title.x = element_text(size = rel(3)))+ ## rel = size relative to other text; v-just adjusts the position of the axis labels in this case
+  theme(axis.text.x=element_text(angle=0, size=30, vjust=0.5)) + # This specifies the size of your x-axis values
+  theme(axis.text.y=element_text(angle=0, size=30, vjust=0.5)) # This specifies the size of your y-axis values
+ggplot(TotalCDeadwood_mean,aes(x=Time,y=mean_C_DeadWood))+geom_point()+geom_line()+
+  theme(axis.title.y = element_text(size = rel(3), angle = 90,vjust=0.5),axis.title.x = element_text(size = rel(3)))+ ## rel = size relative to other text; v-just adjusts the position of the axis labels in this case
+  theme(axis.text.x=element_text(angle=0, size=30, vjust=0.5)) + # This specifies the size of your x-axis values
+  theme(axis.text.y=element_text(angle=0, size=30, vjust=0.5)) # This specifies the size of your y-axis values
+
+#spp biomass
+d<-read.csv("LandisNF_060815v4/spp-biomass-log_yr0.csv")
+e<- d[,c(4:37)]
+?colSums
+f<-colMeans(e, na.rm = TRUE, dims = 1) #sum colums values #remember to set no decimals in excel
+f<-round(f, digits = 2)
+g<-sort (f, decreasing = TRUE)
+View(g)
+
+#spp biomass time year 140
+h<-read.csv("LandisNF_060815v4/spp-biomass-log_yr140.csv")
+i<- h[,c(5:38)]
+?colSums
+l<-colMeans(i, na.rm = TRUE, dims = 1) #sum colums values #remember to set no decimals in excel
+l<-round(l, digits = 0)
+m<-sort (l, decreasing = TRUE)
+View(m)
+
+
+#establishment probability
+b<-read.csv("LandisNF_060815v4/Century-prob-establish-log.csv")
+ProbEst_mean<-ddply(b,.(Species),summarise,mean_ProbEst=mean(ProbEst))
+write.csv(ProbEst_mean, file="ProbEst_mean.csv")
+
+#avgNEE
+c<-read.csv("LandisNF_060815v4/Century-succession-monthly-log.csv")
+avgNEE_mean<-ddply(c,.(Month),summarise,mean_avgNEE=mean(avgNEE))
+
